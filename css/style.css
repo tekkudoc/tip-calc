@@ -42,14 +42,6 @@ body{
     display: none;
 }
 
-.notification-clear {
-    position: relative;
-    left: 650px;
-    top: 70px;
-    z-index: 100;
-    display: none;
-}
-
 .heading-notify {
     font-family: 'Dancing Script' !important;
 }
