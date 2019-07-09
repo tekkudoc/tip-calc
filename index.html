@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- Animate CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.css">
+
+    <link rel="stylesheet" href="css/style.css">
+    <title>Tip Calculator</title>
+  </head>
+  <body>
+
+    <div class="container">
+        <!-- Notifications -->
+        <div class="col-md-3 notification">
+            <div class="card p-3 pr-5 tip-bg animated rubberBand">
+                <h4 class="heading-notify"><i class="far fa-bell"></i> Kindly tip</h4>
+                <h5>Kshs: <span id="tip"></span></h5>
+            </div>
+        </div>
+
+        <div class="col-md-4 notification-alert">
+            <div class="card p-3 tip-bg animated rubberBand">
+                <h4><i class="fas fa-exclamation-triangle"></i> <span class="info"></span></h4>
+            </div>
+        </div>
+
+        <!-- <div class="col-md-5 notification-clear">
+            <div class="card p-3 tip-bg animated rubberBand">
+                <h4><i class="fas fa-clipboard-check"></i> <span></span></h4>
+            </div>
+        </div> -->
+        <!-- /Notifications -->
+       
+        <div class="col-md-5 mx-auto mt-5">
+            <div class="card tip-bg py-3 animated fadeInDown">
+                <div class="card-body">
+                    <div class="text-center">
+                        <h3 class="heading-tip">Tip Calculator </h3>
+                        <form id="tip-form">
+                            <!-- Gender -->
+                            <div class="form-group pt-3">
+                                <label for="gender">Who served you?</label>
+                                <select class="form-control col-5 mx-auto" id="gender">
+                                    <option>Select gender</option>
+                                    <option>Male</option>
+                                    <option>Female</option>
+                                </select>
+                            </div>
+                            <!-- /Gender -->
+
+                            <!-- Rating -->
+                            <div class="form-group pt-3">
+                                <label for="rate">On a scale of 1 to 9, How do you rate?</label>
+                                <input type="number" class="form-control col-4 mx-auto" id="rate" min="1" max="9">
+                            </div>
+                            <!-- /Rating -->
+
+                            <!-- Meal cost -->
+                            <div class="form-group pt-3">
+                                <label for="meal_total">How much for your meal?</label>
+                                <input type="number" class="form-control col-4 mx-auto" id="meal_total">
+                            </div>
+                            <!-- /Meal cost -->
+
+                            <div class="pt-4">
+                                <button type="submit" id="tip-submit" class="btn btn-info mr-5 p-2 px-3">Calculate Tip</button>
+                                <button type="reset" id="reset-btn" class="btn btn-info p-2 px-5">Reset</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/f3bb9f3f14.js"></script>
+    <script src="js/app.js"></script>
+
+    </body>
+</html>

@@ -1,0 +1,55 @@
+body{
+    background-color: #170c26;
+    font-family: 'Sanchez';
+    font-size: 1.125em;
+}
+
+/* Tip Form */
+.tip-bg {
+    background: #9c2a95;
+    background: linear-gradient(45deg, #9c2a95 0%, #5b0da8 100%);
+    color: #ffffff; 
+}
+
+.heading-tip {
+    font-family: 'Dancing Script' !important;
+    font-size: 3.375em !important;
+}
+
+.btn-info {
+    background-color: #ce35c4 !important;
+    border: #9c2a95 !important;
+}
+
+.btn-info:hover {
+    background-color: #5b0da8 !important;
+}
+
+/* Notification */
+.notification {
+    position: relative;
+    left: 650px;
+    top: 70px;
+    z-index: 100;
+    display: none;
+}
+
+.notification-alert {
+    position: relative;
+    left: 650px;
+    top: 70px;
+    z-index: 100;
+    display: none;
+}
+
+.notification-clear {
+    position: relative;
+    left: 650px;
+    top: 70px;
+    z-index: 100;
+    display: none;
+}
+
+.heading-notify {
+    font-family: 'Dancing Script' !important;
+}
